@@ -1,5 +1,6 @@
 <?php
         $a = 100;
+        $b = 200;
         // $b = 14.88;
         // $c = 'YASCHIK';
         // $d = array(12,13,'adasdad');
