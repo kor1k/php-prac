@@ -1,6 +1,6 @@
 <?php
-        $a = 100;
-        $b = 200;
+        // $a = 100;
+        // $b = 200;
         // $b = 14.88;
         // $c = 'YASCHIK';
         // $d = array(12,13,'adasdad');
@@ -48,13 +48,37 @@
     //     echo "ok - clouds";
     // }
 
-    $age = 17;
-    if($age == 18 || $age >= 21) {
-        echo 'You allowed';
-    } else {
-        echo 'Not allowed';
-    }
+    // $age = 17;
+    // if($age == 18 || $age >= 21) {
+    //     echo 'You allowed';
+    // } else {
+    //     echo 'Not allowed';
+    // }
     // if($age >= 21) {
     //     echo 'welcome!';
     // }
+
+    // $a = 0;
+    // while($a < 20) {
+    //     $a++;
+    //     echo $a;
+    // }
+
+    // for($a=0;$a<10;$a++) echo $a;
+
+    // $names["Приходько"] = "Ярик";
+    // $names["Ельский"] = "Костя";
+    // $names["Пиргач"] = "Миша";
+    // foreach ($names as $key => $value) {
+    // echo "$value $key";
+// }
+  
+    $nameOfUser == 'Kostya';
+    if ($nameOfUser != 'Kostya'){
+        echo 'Who r u?';
+    } else {
+        echo 'Welcome';
+    }
+
+    
 ?>
