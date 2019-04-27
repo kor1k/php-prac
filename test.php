@@ -78,7 +78,8 @@
         echo 'Who r u?';
     } else {
         echo 'Welcome';
+        
     }
 
-    
+
 ?>
