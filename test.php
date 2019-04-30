@@ -148,14 +148,39 @@
     // return myFirstFuanctionInPHP();
     // ФУНКЦИИ
 
-    function get_bigger($a,$b) {
-        if($a > $b) {
-            echo $a . ' - A is bigger';
-        } else {
-            echo $b . ' - B is bigger';
-        }
-    };
-    // return get_bigger(100,10);
-    // return get_bigger(200,400);
-    return get_bigger(1212,-0);
+    // function get_bigger($a,$b) {
+    //     if($a > $b) {
+    //         echo $a . ' - A is bigger';
+    //     } else {
+    //         echo $b . ' - B is bigger';
+    //     }
+    // };
+    // // return get_bigger(100,10);
+    // // return get_bigger(200,400);
+    // return get_bigger(1212,-0);
+
+
+
+    // MATH functions abs, round, cail, max, min, floor, rand
+    
+    // echo abs(-3000); убирает знак -
+
+    // echo round(50.51); округляет как всегда
+
+    // echo ceil(50.1); округляет всегда в бОльшую сторону
+
+    // echo floor(50.8); округляет всегда в меньшую сторону
+
+
+    // $low = 100;
+    // $high = 200;
+    // echo rand($low,$high); случайное число
+
+    // echo min('-200',-199,-1,2,3,4,5,123,67890); минимальное число из списка
+
+    // $numbers = array(120,123819,0,899,-0120321);
+    // echo max($numbers); максимальное число из скобок / массива и т.д
+
+    // MATH functions abs, round, cail, max, min, floor, rand
+
 ?>
