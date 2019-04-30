@@ -73,10 +73,32 @@
     // echo "$value $key";
 // }
   
-    $nameOfUser == 'Kostya';
-    if ($nameOfUser != 'Kostya'){
-        echo 'Who r u?';
+    // $nameOfUser == 'Kostya';
+    // if ($nameOfUser != 'Kostya'){
+    //     echo 'Who r u?';
+    // } else {
+    //     echo 'Welcome';
+    // }
+
+
+    // ЛОГИЧЕСКИЕ ОПЕРАТОРЫ "and" "or" 
+
+    // $name = 'Kostya';
+    // $age = 19;
+    // if ($age < 20 and $name != 'Kostya') {
+    //     echo 'U r not alowed to visit this website';
+    // } else {
+    //    echo 'Hello Kostya!';
+    // }
+
+    $rating = 76;
+    if($rating >= 26 and $rating <= 75) {
+        echo 'You are good enough';
     } else {
-        echo 'Welcome';
+        echo 'Dont give up!';
     }
+
+    // ЛОГИЧЕСКИЕ ОПЕРАТОРЫ "and" "or" 
+
+
 ?>
