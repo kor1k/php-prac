@@ -148,14 +148,12 @@
     // return myFirstFuanctionInPHP();
     // ФУНКЦИИ
 
-    function get_bigger() {
-        $a = 123;
-        $b = 123.1236123;
+    function get_bigger($a,$b) {
         if($a > $b) {
             echo $a . ' - A is bigger';
         } else {
             echo $b . ' - B is bigger';
         }
     };
-    return get_bigger();
+    return get_bigger(22,21);
 ?>
