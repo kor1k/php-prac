@@ -103,15 +103,42 @@
 
     // ЦИКЛЫ FOR WHILE FOREACH
 
-    for($i = 1; $i <= 10; $i++) {
-        echo $i;
-        if($i % 2 == 0) {
-            echo ' - Чётное';
-        } else {
-            echo ' - Нечётное';
-        }
-    }
+    // for($i = 1; $i <= 10; $i++) {
+    //     echo $i;
+    //     if($i % 2 == 0) {
+    //         echo ' - Чётное';
+    //     } else {
+    //         echo ' - Нечётное';
+    //     }
+    // }
 
+    // $test = 10;
+    // while($test <= 20) {
+    //  echo "Test - " . $test . " ";
+    //  $test++;
+    // }
+
+    // $names = array(
+    //     'Kostya ',
+    //     'Yarik ',
+    //     'MaxPopov ',
+    //     'MaxZhashkevich'
+    // );
+    // foreach($names as $value ) {
+    //     echo $value;
+    // }
+
+    $numbers = array(
+        60,
+        76,
+        61,
+        90,
+        80,
+        69
+    );
+    foreach($numbers as $num) {
+        echo "Power of nums is: " . ($num * $num) . "     ";
+    }
     // ЦИКЛЫ FOR WHILE FOREACH
 
 ?>
