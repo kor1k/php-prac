@@ -128,17 +128,34 @@
     //     echo $value;
     // }
 
-    $numbers = array(
-        60,
-        76,
-        61,
-        90,
-        80,
-        69
-    );
-    foreach($numbers as $num) {
-        echo "Power of nums is: " . ($num * $num) . "     ";
-    }
+    // $numbers = array(
+    //     60,
+    //     76,
+    //     61,
+    //     90,
+    //     80,
+    //     69
+    // );
+    // foreach($numbers as $num) {
+    //     echo "Power of nums is: " . ($num * $num) . "     ";
+    // }
     // ЦИКЛЫ FOR WHILE FOREACH
 
+    // ФУНКЦИИ
+    // function myFirstFuanctionInPHP() {
+    //     echo 'Hello PHP functions!';
+    // };
+    // return myFirstFuanctionInPHP();
+    // ФУНКЦИИ
+
+    function get_bigger() {
+        $a = 123;
+        $b = 123.1236123;
+        if($a > $b) {
+            echo $a . ' - A is bigger';
+        } else {
+            echo $b . ' - B is bigger';
+        }
+    };
+    return get_bigger();
 ?>
