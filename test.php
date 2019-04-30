@@ -155,5 +155,7 @@
             echo $b . ' - B is bigger';
         }
     };
-    return get_bigger(22,21);
+    // return get_bigger(100,10);
+    // return get_bigger(200,400);
+    return get_bigger(1212,-0);
 ?>
