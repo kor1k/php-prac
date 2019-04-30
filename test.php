@@ -91,14 +91,27 @@
     //    echo 'Hello Kostya!';
     // }
 
-    $rating = 76;
-    if($rating >= 26 and $rating <= 75) {
-        echo 'You are good enough';
-    } else {
-        echo 'Dont give up!';
-    }
+    // $rating = 76;
+    // if($rating >= 26 and $rating <= 75) {
+    //     echo 'You are good enough';
+    // } else {
+    //     echo 'Dont give up!';
+    // }
 
     // ЛОГИЧЕСКИЕ ОПЕРАТОРЫ "and" "or" 
 
+
+    // ЦИКЛЫ FOR WHILE FOREACH
+
+    for($i = 1; $i <= 10; $i++) {
+        echo $i;
+        if($i % 2 == 0) {
+            echo ' - Чётное';
+        } else {
+            echo ' - Нечётное';
+        }
+    }
+
+    // ЦИКЛЫ FOR WHILE FOREACH
 
 ?>
